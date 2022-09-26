@@ -1,0 +1,1210 @@
+2022-09-18 11:25:05.616 30391-4537/? E/ActivityManager: ANR in com.android.systemui
+    PID: 4390
+    Reason: executing service com.android.systemui/.dump.SystemUIAuxiliaryDumpService
+    Load: 0.03 / 0.1 / 0.53
+    ----- Output from /proc/pressure/memory -----
+    some avg10=0.00 avg60=0.00 avg300=0.00 total=56341142
+    full avg10=0.00 avg60=0.00 avg300=0.00 total=11415703
+    ----- End output from /proc/pressure/memory -----
+    
+    CPU usage from 202139ms to 0ms ago (2022-09-18 08:21:39.216 to 2022-09-18 08:25:01.355) with 99% awake:
+      4.6% 305/android.hardware.bluetooth@1.1-service.sim: 0% user + 4.6% kernel
+      1.9% 318/android.hardware.graphics.composer@2.3-service: 0% user + 1.9% kernel
+      1.4% 30391/system_server: 0.2% user + 1.2% kernel / faults: 2781 minor 4 major
+      0.9% 327/android.hardware.sensors@2.1-service.multihal: 0% user + 0.9% kernel
+      0.8% 362/surfaceflinger: 0% user + 0.8% kernel / faults: 75 minor
+      0.5% 31430/com.google.android.googlequicksearchbox:search: 0.1% user + 0.3% kernel / faults: 8051 minor 7 major
+      0.4% 171/logd: 0% user + 0.3% kernel / faults: 16 minor
+      0.3% 26/ksoftirqd/3: 0% user + 0.3% kernel
+      0.3% 1970/adbd: 0% user + 0.3% kernel / faults: 426 minor 1 major
+      0.3% 30547/com.android.bluetooth: 0% user + 0.2% kernel / faults: 452 minor
+      0.2% 21/ksoftirqd/2: 0% user + 0.2% kernel
+      0.2% 10/rcu_preempt: 0% user + 0.2% kernel
+      0.2% 16/ksoftirqd/1: 0% user + 0.2% kernel
+      0.1% 30774/com.android.phone: 0% user + 0.1% kernel / faults: 199 minor 1 major
+      0.1% 30996/com.google.android.gms.persistent: 0% user + 0.1% kernel / faults: 757 minor
+      0.1% 3941/kworker/u8:4-events_unbound: 0% user + 0.1% kernel
+      0.1% 30856/com.google.android.apps.nexuslauncher: 0% user + 0% kernel / faults: 396 minor 2 major
+      0.1% 9/ksoftirqd/0: 0% user + 0.1% kernel
+      0% 477/kworker/u8:5-kverityd: 0% user + 0% kernel
+      0.1% 31485/com.google.android.gms: 0% user + 0% kernel / faults: 1928 minor
+      0% 453/media.swcodec: 0% user + 0% kernel / faults: 82 minor
+      0% 3630/com.google.android.gms.unstable: 0% user + 0% kernel / faults: 315 minor
+      0% 30407/android.hardware.audio.service.ranchu: 0% user + 0% kernel
+      0% 30406/audioserver: 0% user + 0% kernel / faults: 5 minor
+      0% 378/logcat: 0% user + 0% kernel
+      0% 4343/com.android.vending:instant_app_installer: 0% user + 0% kernel / faults: 31 minor
+      0% 31830/com.android.vending: 0% user + 0% kernel / faults: 243 minor 6 major
+      0% 30655/android.hardware.gnss@2.0-service.ranchu: 0% user + 0% kernel
+      0% 31145/android.process.acore: 0% user + 0% kernel / faults: 20 minor
+      0% 173/servicemanager: 0% user + 0% kernel
+      0% 212/jbd2/dm-5-8: 0% user + 0% kernel
+      0% 295/statsd: 0% user + 0% kernel / faults: 6 minor
+      0% 317/android.hardware.graphics.allocator@3.0-service: 0% user + 0% kernel / faults: 1 minor 1 major
+      0% 400/traced_probes: 0% user + 0% kernel / faults: 1 minor
+      0% 435/media.extractor: 0% user + 0% kernel / faults: 3 minor
+      0% 4388/kworker/0:2-events: 0% user + 0% kernel
+      0% 172/lmkd: 0% user + 0% kernel
+      0% 143/kworker/0:1H-kblockd: 0% user + 0% kernel
+      0% 174/hwservicemanager: 0% user + 0% kernel
+      0% 418/iorapd: 0% user + 0% kernel / faults: 32 minor
+      0% 461/android.hardware.biometrics.fingerprint@2.1-service: 0% user + 0% kernel
+      0% 575/com.google.android.ims: 0% user + 0% kernel / faults: 7 minor
+      0% 3965/kworker/2:0-mm_percpu_wq: 0% user + 0% kernel
+      0% 4055/kworker/1:0-events_power_efficient: 0% user + 0% kernel
+      0% 30343/zygote: 0% user + 0% kernel / faults: 165 minor
+      0% 30347/netd: 0% user + 0% kernel / faults: 3 minor
+      0% 30700/com.android.networkstack.process: 0% user + 0% kernel / faults: 49 minor
+      0% 31116/com.google.android.inputmethod.latin: 0% user + 0% kernel / faults: 12 minor 5 major
+      0% 1/init: 0% user + 0% kernel
+      0% 11/migration/0: 0% user + 0% kernel
+      0% 15/migration/1: 0% user + 0% kernel
+      0% 20/migration/2: 0% user + 0% kernel
+      0% 25/migration/3: 0% user + 0% kernel
+      0% 407/traced: 0% user + 0% kernel / faults: 10 minor
+      0% 451/libgoldfish-rild: 0% user + 0% kernel / faults: 20 minor
+2022-09-18 11:25:05.616 30391-4537/? E/ActivityManager:   0% 503/hostapd_nohidl: 0% user + 0% kernel
+      0% 721/wpa_supplicant: 0% user + 0% kernel
+      0% 931/installer: 0% user + 0% kernel / faults: 58 minor 6 major
+      0% 4202/kworker/3:1-mm_percpu_wq: 0% user + 0% kernel
+      0% 29012/kworker/u9:0-fscrypt_read_queue: 0% user + 0% kernel
+      0% 30345/cameraserver: 0% user + 0% kernel / faults: 74 minor
+      0% 30836/com.google.android.ext.services: 0% user + 0% kernel / faults: 13 minor 2 major
+     +0% 4390/com.android.systemui: 0% user + 0% kernel
+     +0% 4416/kworker/u8:1-kverityd: 0% user + 0% kernel
+     +0% 4476/kworker/u8:2-events_unbound: 0% user + 0% kernel
+     +0% 4498/com.ankauniss.myapplication: 0% user + 0% kernel
+     +0% 4522/logcat: 0% user + 0% kernel
+    2.6% TOTAL: 0.5% user + 2% kernel + 0% iowait + 0% softirq
+    CPU usage from 38ms to 528ms later (2022-09-18 08:25:01.393 to 2022-09-18 08:25:01.883):
+      133% 30391/system_server: 84% user + 48% kernel / faults: 1603 minor
+        97% 30401/ReferenceQueueD: 71% user + 25% kernel
+        32% 4537/AnrConsumer: 3.2% user + 29% kernel
+        3.2% 30400/HeapTaskDaemon: 3.2% user + 0% kernel
+      4.1% 26/ksoftirqd/3: 0% user + 4.1% kernel
+      4.5% 305/android.hardware.bluetooth@1.1-service.sim: 0% user + 4.5% kernel
+        4.5% 1224/bluetooth@1.1-s: 0% user + 4.5% kernel
+      2.3% 318/android.hardware.graphics.composer@2.3-service: 0% user + 2.3% kernel
+        2.3% 374/: 0% user + 2.3% kernel
+      2.3% 327/android.hardware.sensors@2.1-service.multihal: 0% user + 2.3% kernel
+        2.3% 355/sensors@2.1-ser: 0% user + 2.3% kernel
+      2.5% 1970/adbd: 0% user + 2.5% kernel
+      3.3% 30547/com.android.bluetooth: 0% user + 3.3% kernel / faults: 2 minor
+    35% TOTAL: 16% user + 19% kernel
+2022-09-18 11:25:13.386 30391-30422/? E/JobScheduler.Background: App com.google.android.gms became active but still in NEVER bucket
+2022-09-18 11:25:17.875 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-18 11:25:17.875 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-18 11:25:19.068 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-18 11:25:19.069 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-18 11:26:17.937 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-18 11:26:17.937 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-18 11:26:19.110 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-18 11:26:19.110 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-18 11:26:51.183 30547-30928/? E/bt_btm: BTM_BleObserve Observe not active
+2022-09-18 11:27:17.999 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-18 11:27:17.999 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-18 11:27:19.142 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-18 11:27:19.142 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-18 11:27:31.266 4609-4609/? E/oid.setupwizar: Not starting debugger since process cannot load the jdwp agent.
+2022-09-18 11:27:38.726 30547-30928/? E/bt_btm: BTM_BleObserve Observe not active
+2022-09-18 11:27:49.132 30391-30405/? E/FingerprintService: Lockout reset callback binder died
+2022-09-18 11:27:49.132 30391-30405/? E/BiometricService: Enabled callback binder died
+2022-09-18 11:27:49.290 4649-4649/? E/ndroid.systemu: Not starting debugger since process cannot load the jdwp agent.
+2022-09-18 11:27:49.644 4649-4649/? E/ActivityThread: Failed to find provider info for com.google.android.apps.turbo.estimated_time_remaining
+2022-09-18 11:27:49.663 4649-4649/? E/NavigationModeController: updateCurrentInteractionMode: mode=0
+2022-09-18 11:27:49.814 4649-4683/? E/FMQ: grantorIdx must be less than 3
+2022-09-18 11:27:49.818 4649-4683/? E/FMQ: grantorIdx must be less than 3
+2022-09-18 11:27:49.820 453-895/? E/FMQ: grantorIdx must be less than 3
+2022-09-18 11:27:49.820 453-895/? E/FMQ: grantorIdx must be less than 3
+2022-09-18 11:27:49.825 4649-4683/? E/ion: ioctl c0044901 failed with code -1: Inappropriate ioctl for device
+2022-09-18 11:27:49.830 4649-4683/? E/FMQ: grantorIdx must be less than 3
+2022-09-18 11:27:49.831 453-894/? E/FMQ: grantorIdx must be less than 3
+2022-09-18 11:27:49.870 4649-4691/? E/FMQ: grantorIdx must be less than 3
+2022-09-18 11:27:49.870 453-4690/? E/FMQ: grantorIdx must be less than 3
+2022-09-18 11:27:49.871 4649-4691/? E/FMQ: grantorIdx must be less than 3
+2022-09-18 11:27:49.871 4649-4689/? E/FMQ: grantorIdx must be less than 3
+2022-09-18 11:27:49.872 453-453/? E/FMQ: grantorIdx must be less than 3
+2022-09-18 11:27:49.873 453-453/? E/FMQ: grantorIdx must be less than 3
+2022-09-18 11:27:49.903 4649-4691/? E/FMQ: grantorIdx must be less than 3
+2022-09-18 11:27:49.904 453-894/? E/FMQ: grantorIdx must be less than 3
+2022-09-18 11:27:49.929 453-4692/? E/FMQ: grantorIdx must be less than 3
+2022-09-18 11:27:49.929 4649-4689/? E/FMQ: grantorIdx must be less than 3
+2022-09-18 11:27:50.019 4649-4693/? E/vol.VolumeDialogControl: isCaptionsServiceEnabled failed to check for captions component
+2022-09-18 11:27:50.082 4649-4696/? E/FMQ: grantorIdx must be less than 3
+2022-09-18 11:27:50.083 4649-4696/? E/FMQ: grantorIdx must be less than 3
+2022-09-18 11:27:50.084 453-453/? E/FMQ: grantorIdx must be less than 3
+2022-09-18 11:27:50.084 453-453/? E/FMQ: grantorIdx must be less than 3
+2022-09-18 11:27:50.091 4649-4696/? E/FMQ: grantorIdx must be less than 3
+2022-09-18 11:27:50.091 453-453/? E/FMQ: grantorIdx must be less than 3
+2022-09-18 11:27:50.120 453-4697/? E/FMQ: grantorIdx must be less than 3
+2022-09-18 11:27:50.121 4649-4689/? E/FMQ: grantorIdx must be less than 3
+2022-09-18 11:27:54.767 938-938/? E/studio.deploy: Could not remove dir '/data/data/com.ankauniss.myapplication/code_cache/.ll/': No such file or directory
+2022-09-18 11:28:09.741 30391-4791/? E/ActivityManager: ANR in com.google.android.setupwizard
+    PID: 4609
+    Reason: executing service com.google.android.setupwizard/.predeferred.PreDeferredServiceScheduler
+    Load: 0.0 / 0.0 / 0.0
+    ----- Output from /proc/pressure/memory -----
+    some avg10=0.00 avg60=0.00 avg300=0.00 total=56346791
+    full avg10=0.00 avg60=0.00 avg300=0.00 total=11417729
+    ----- End output from /proc/pressure/memory -----
+    
+    CPU usage from 99479ms to 0ms ago (2022-09-18 08:26:30.122 to 2022-09-18 08:28:09.601):
+      4.7% 305/android.hardware.bluetooth@1.1-service.sim: 0% user + 4.7% kernel
+      4.2% 318/android.hardware.graphics.composer@2.3-service: 0% user + 4.2% kernel
+      3.1% 362/surfaceflinger: 0% user + 3% kernel / faults: 179 minor
+      2.8% 30391/system_server: 0.4% user + 2.4% kernel / faults: 3670 minor 10 major
+      0.9% 327/android.hardware.sensors@2.1-service.multihal: 0% user + 0.9% kernel
+      0.8% 171/logd: 0% user + 0.7% kernel / faults: 18 minor 2 major
+      0.3% 31430/com.google.android.googlequicksearchbox:search: 0.1% user + 0.2% kernel / faults: 4302 minor
+      0.6% 1970/adbd: 0% user + 0.5% kernel / faults: 447 minor
+      0.4% 31485/com.google.android.gms: 0.1% user + 0.2% kernel / faults: 1511 minor 1 major
+      0.4% 9/ksoftirqd/0: 0% user + 0.4% kernel
+      0.4% 30996/com.google.android.gms.persistent: 0% user + 0.3% kernel / faults: 1362 minor
+      0.3% 3941/kworker/u8:4-events_unbound: 0% user + 0.3% kernel
+      0.3% 10/rcu_preempt: 0% user + 0.3% kernel
+      0.2% 16/ksoftirqd/1: 0% user + 0.2% kernel
+      0.2% 21/ksoftirqd/2: 0% user + 0.2% kernel
+      0.1% 30856/com.google.android.apps.nexuslauncher: 0% user + 0% kernel / faults: 125 minor 1 major
+      0.1% 30774/com.android.phone: 0% user + 0.1% kernel / faults: 150 minor
+      0% 30407/android.hardware.audio.service.ranchu: 0% user + 0% kernel / faults: 3 minor
+      0.1% 26/ksoftirqd/3: 0% user + 0.1% kernel
+      0.1% 453/media.swcodec: 0% user + 0.1% kernel / faults: 70 minor
+      0% 378/logcat: 0% user + 0% kernel
+      0% 30406/audioserver: 0% user + 0% kernel / faults: 122 minor 3 major
+      0% 30547/com.android.bluetooth: 0% user + 0% kernel / faults: 145 minor 3 major
+      0% 31145/android.process.acore: 0% user + 0% kernel / faults: 80 minor
+      0% 4388/kworker/0:2-events: 0% user + 0% kernel
+      0% 4476/kworker/u8:2-events_unbound: 0% user + 0% kernel
+      0% 173/servicemanager: 0% user + 0% kernel
+      0% 400/traced_probes: 0% user + 0% kernel / faults: 1 minor
+      0% 30343/zygote: 0% user + 0% kernel / faults: 503 minor
+      0% 212/jbd2/dm-5-8: 0% user + 0% kernel
+      0% 295/statsd: 0% user + 0% kernel / faults: 18 minor
+      0% 317/android.hardware.graphics.allocator@3.0-service: 0% user + 0% kernel
+      0% 31116/com.google.android.inputmethod.latin: 0% user + 0% kernel / faults: 13 minor
+      0% 31210/com.google.process.gservices: 0% user + 0% kernel / faults: 243 minor
+      0% 435/media.extractor: 0% user + 0% kernel / faults: 5 minor
+      0% 4202/kworker/3:1-mm_percpu_wq: 0% user + 0% kernel
+      0% 4343/com.android.vending:instant_app_installer: 0% user + 0% kernel / faults: 10 minor
+      0% 30655/android.hardware.gnss@2.0-service.ranchu: 0% user + 0% kernel
+      0% 30700/com.android.networkstack.process: 0% user + 0% kernel / faults: 31 minor 3 major
+      0% 172/lmkd: 0% user + 0% kernel
+      0% 4055/kworker/1:0-events_power_efficient: 0% user + 0% kernel
+      0% 31830/com.android.vending: 0% user + 0% kernel / faults: 26 minor
+      0% 1/init: 0% user + 0% kernel / faults: 1 minor
+      0% 25/migration/3: 0% user + 0% kernel
+      0% 95/ion_system_heap: 0% user + 0% kernel
+      0% 143/kworker/0:1H-kblockd: 0% user + 0% kernel
+      0% 145/ueventd: 0% user + 0% kernel
+      0% 174/hwservicemanager: 0% user + 0% kernel
+      0% 319/android.hardware.health@2.1-service: 0% user + 0% kernel
+      0% 407/traced: 0% user + 0% kernel / faults: 10 minor
+      0% 418/iorapd: 0% user + 0% kernel / faults: 23 minor 4 major
+      0% 461/android.hardware.biometrics.fingerprint@2.1-service: 0% user + 0% kernel
+      0% 503/hostapd_nohidl: 0% user + 0% kernel
+      0% 938/install_server-4ba71210: 0% user + 0% kernel / faults: 2 minor
+2022-09-18 11:28:09.741 30391-4791/? E/ActivityManager:   0% 3965/kworker/2:0-mm_percpu_wq: 0% user + 0% kernel
+      0% 30345/cameraserver: 0% user + 0% kernel / faults: 93 minor
+      0% 30347/netd: 0% user + 0% kernel / faults: 41 minor 1 major
+      0% 30836/com.google.android.ext.services: 0% user + 0% kernel / faults: 12 minor
+      0% 31286/com.google.android.googlequicksearchbox:interactor: 0% user + 0% kernel / faults: 17 minor 4 major
+     +0% 4606/kworker/u8:0-events_unbound: 0% user + 0% kernel
+     +0% 4609/com.google.android.setupwizard: 0% user + 0% kernel
+     +0% 4616/kworker/u8:1-events_unbound: 0% user + 0% kernel
+     +0% 4647/kworker/3:0-mm_percpu_wq: 0% user + 0% kernel
+     +0% 4649/com.android.systemui: 0% user + 0% kernel
+     +0% 4727/kworker/1:2-events_power_efficient: 0% user + 0% kernel
+     +0% 4753/com.ankauniss.myapplication: 0% user + 0% kernel
+     +0% 4777/logcat: 0% user + 0% kernel
+    6.2% TOTAL: 1.2% user + 4.9% kernel + 0% iowait + 0% softirq
+    CPU usage from 12095530ms to 12095530ms ago (1970-01-01 00:00:00.000 to 1970-01-01 00:00:00.000) with 0% awake:
+    0% TOTAL: 0% user + 0% kernel
+2022-09-18 11:28:18.061 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-18 11:28:18.061 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-18 11:28:19.159 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-18 11:28:19.159 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-18 11:29:18.123 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-18 11:29:18.123 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-18 11:29:19.175 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-18 11:29:19.175 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-18 11:29:51.058 30547-30928/? E/bt_btm: BTM_BleObserve Observe not active
+2022-09-18 11:30:18.131 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-18 11:30:18.131 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-18 11:30:19.232 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-18 11:30:19.232 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-18 11:31:13.829 4803-4803/? A/crash_dump32: crash_dump.cpp:474] failed to attach to thread 176: Permission denied
+2022-09-18 11:31:13.839 176-176/? A/libc: crash_dump helper failed to exec
+2022-09-18 11:31:16.195 30391-4800/? E/ActivityManager: ANR in com.android.systemui
+    PID: 4649
+    Reason: executing service com.android.systemui/.dump.SystemUIAuxiliaryDumpService
+    Load: 1.41 / 0.54 / 0.55
+    ----- Output from /proc/pressure/memory -----
+    some avg10=0.00 avg60=0.00 avg300=0.00 total=56346791
+    full avg10=0.00 avg60=0.00 avg300=0.00 total=11417729
+    ----- End output from /proc/pressure/memory -----
+    
+    CPU usage from 181728ms to 0ms ago (2022-09-18 08:28:09.601 to 2022-09-18 08:31:11.329):
+      37% 4753/com.ankauniss.myapplication: 3.4% user + 34% kernel / faults: 20609 minor
+      35% 362/surfaceflinger: 0.8% user + 34% kernel / faults: 6 minor
+      26% 318/android.hardware.graphics.composer@2.3-service: 0.2% user + 25% kernel
+      4.7% 305/android.hardware.bluetooth@1.1-service.sim: 0% user + 4.6% kernel
+      1% 16/ksoftirqd/1: 0% user + 1% kernel
+      1% 4388/kworker/0:2-events: 0% user + 1% kernel
+      0.9% 327/android.hardware.sensors@2.1-service.multihal: 0% user + 0.9% kernel
+      0.9% 30391/system_server: 0.2% user + 0.6% kernel / faults: 1501 minor
+      0.9% 26/ksoftirqd/3: 0% user + 0.9% kernel
+      0.8% 21/ksoftirqd/2: 0% user + 0.8% kernel
+      0.8% 10/rcu_preempt: 0% user + 0.8% kernel
+      0.7% 9/ksoftirqd/0: 0% user + 0.7% kernel
+      0.1% 30774/com.android.phone: 0% user + 0.1% kernel / faults: 87 minor
+      0.1% 31485/com.google.android.gms: 0% user + 0% kernel / faults: 2212 minor
+      0% 3941/kworker/u8:4-events_unbound: 0% user + 0% kernel
+      0% 4343/com.android.vending:instant_app_installer: 0% user + 0% kernel / faults: 63 minor
+      0% 3630/com.google.android.gms.unstable: 0% user + 0% kernel / faults: 314 minor
+      0% 4727/kworker/1:2-events_power_efficient: 0% user + 0% kernel
+      0% 30996/com.google.android.gms.persistent: 0% user + 0% kernel / faults: 53 minor
+      0% 1970/adbd: 0% user + 0% kernel
+      0% 30655/android.hardware.gnss@2.0-service.ranchu: 0% user + 0% kernel
+      0% 11/migration/0: 0% user + 0% kernel
+      0% 15/migration/1: 0% user + 0% kernel
+      0% 20/migration/2: 0% user + 0% kernel
+      0% 25/migration/3: 0% user + 0% kernel
+      0% 575/com.google.android.ims: 0% user + 0% kernel / faults: 9 minor
+      0% 31430/com.google.android.googlequicksearchbox:search: 0% user + 0% kernel / faults: 50 minor
+      0% 171/logd: 0% user + 0% kernel / faults: 4 minor
+      0% 212/jbd2/dm-5-8: 0% user + 0% kernel
+      0% 3965/kworker/2:0-mm_percpu_wq: 0% user + 0% kernel
+      0% 31830/com.android.vending: 0% user + 0% kernel / faults: 4 minor
+      0% 131/kworker/1:1H-kblockd: 0% user + 0% kernel
+      0% 143/kworker/0:1H-kblockd: 0% user + 0% kernel
+      0% 172/lmkd: 0% user + 0% kernel
+      0% 173/servicemanager: 0% user + 0% kernel
+      0% 174/hwservicemanager: 0% user + 0% kernel
+      0% 295/statsd: 0% user + 0% kernel
+      0% 319/android.hardware.health@2.1-service: 0% user + 0% kernel
+      0% 378/logcat: 0% user + 0% kernel
+      0% 451/libgoldfish-rild: 0% user + 0% kernel / faults: 30 minor
+      0% 461/android.hardware.biometrics.fingerprint@2.1-service: 0% user + 0% kernel
+      0% 503/hostapd_nohidl: 0% user + 0% kernel
+      0% 721/wpa_supplicant: 0% user + 0% kernel
+      0% 4647/kworker/3:0-mm_percpu_wq: 0% user + 0% kernel
+      0% 30347/netd: 0% user + 0% kernel
+      0% 30700/com.android.networkstack.process: 0% user + 0% kernel / faults: 35 minor
+      0% 31116/com.google.android.inputmethod.latin: 0% user + 0% kernel / faults: 2 minor
+     +0% 4798/kworker/0:1: 0% user + 0% kernel
+    18% TOTAL: 0.8% user + 17% kernel + 0% iowait + 0% softirq
+    CPU usage from 45ms to 560ms later (2022-09-18 08:31:11.374 to 2022-09-18 08:31:11.889):
+      35% 362/surfaceflinger: 2.1% user + 32% kernel
+        8.7% 362/surfaceflinger: 2.1% user + 6.5% kernel
+        6.5% 395/Binder:362_2: 0% user + 6.5% kernel
+        4.3% 397/surfaceflinger: 0% user + 4.3% kernel
+        4.3% 425/DispSync: 0% user + 4.3% kernel
+        2.1% 427/app: 0% user + 2.1% kernel
+        2.1% 428/sf: 0% user + 2.1% kernel
+        2.1% 620/Binder:362_4: 0% user + 2.1% kernel
+      40% 30391/system_server: 0% user + 40% kernel / faults: 173 minor
+        34% 4800/AnrConsumer: 0% user + 34% kernel
+      33% 4753/com.ankauniss.myapplication: 5.5% user + 27% kernel / faults: 30 minor
+2022-09-18 11:31:16.195 30391-4800/? E/ActivityManager:     16% 4753/s.myapplication: 5.5% user + 11% kernel
+        16% 4781/RenderThread: 2.7% user + 13% kernel
+      21% 318/android.hardware.graphics.composer@2.3-service: 0% user + 21% kernel
+        21% 421/HwBinder:318_2: 2.1% user + 19% kernel
+        2.1% 374/: 0% user + 2.1% kernel
+      4.2% 305/android.hardware.bluetooth@1.1-service.sim: 0% user + 4.2% kernel
+        4.2% 1224/bluetooth@1.1-s: 0% user + 4.2% kernel
+      1.9% 26/ksoftirqd/3: 0% user + 1.9% kernel
+    32% TOTAL: 2.9% user + 29% kernel
+2022-09-18 11:31:18.190 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-18 11:31:18.190 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-18 11:31:19.293 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-18 11:31:19.293 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-18 11:32:05.510 30391-4862/? E/NtpTimeHelper: requestTime failed
+2022-09-18 11:32:15.938 31430-31430/? E/A: onError
+    com.google.android.apps.gsa.shared.speech.a.m: errorCode: 65561, engine: 2
+        at com.google.android.apps.gsa.staticplugins.cy.a.f.a(PG:3)
+        at com.google.android.apps.gsa.s3.o.gR(PG:1)
+        at com.google.cc.g.a.f.e(PG:2)
+        at com.google.android.apps.gsa.speech.k.a.g.d(PG:22)
+        at com.google.android.apps.gsa.speech.k.a.g.jQ(PG:6)
+        at com.google.android.apps.gsa.s3.p.c(PG:14)
+        at com.google.android.apps.gsa.s3.q.run(PG:1)
+        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+        at com.google.android.apps.gsa.shared.util.c.a.e.run(PG:2)
+        at com.google.android.apps.gsa.shared.util.c.a.bi.run(PG:1)
+        at com.google.android.apps.gsa.shared.util.c.a.bi.run(PG:1)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+        at java.lang.Thread.run(Thread.java:923)
+        at com.google.android.apps.gsa.shared.util.c.a.l.run(PG:5)
+     Caused by: com.google.android.apps.gsa.shared.speech.a.o: errorCode: 65586, engine: 2
+        at com.google.android.apps.gsa.s3.o.gR(PG:1) 
+        at com.google.cc.g.a.f.e(PG:2) 
+        at com.google.android.apps.gsa.speech.k.a.g.d(PG:22) 
+        at com.google.android.apps.gsa.speech.k.a.g.jQ(PG:6) 
+        at com.google.android.apps.gsa.s3.p.c(PG:14) 
+        at com.google.android.apps.gsa.s3.q.run(PG:1) 
+        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462) 
+        at java.util.concurrent.FutureTask.run(FutureTask.java:266) 
+        at com.google.android.apps.gsa.shared.util.c.a.e.run(PG:2) 
+        at com.google.android.apps.gsa.shared.util.c.a.bi.run(PG:1) 
+        at com.google.android.apps.gsa.shared.util.c.a.bi.run(PG:1) 
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167) 
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641) 
+        at java.lang.Thread.run(Thread.java:923) 
+        at com.google.android.apps.gsa.shared.util.c.a.l.run(PG:5) 
+     Caused by: com.google.android.apps.gsa.shared.speech.a.k: errorCode: 401, engine: 2
+        at com.google.android.apps.gsa.assistant.shared.n.h.a(PG:5)
+        at com.google.android.apps.gsa.s3.producers.j.hj(PG:2)
+        at com.google.android.apps.gsa.speech.k.a.g.d(PG:16)
+        at com.google.android.apps.gsa.speech.k.a.g.jQ(PG:6) 
+        at com.google.android.apps.gsa.s3.p.c(PG:14) 
+        at com.google.android.apps.gsa.s3.q.run(PG:1) 
+        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462) 
+        at java.util.concurrent.FutureTask.run(FutureTask.java:266) 
+        at com.google.android.apps.gsa.shared.util.c.a.e.run(PG:2) 
+        at com.google.android.apps.gsa.shared.util.c.a.bi.run(PG:1) 
+        at com.google.android.apps.gsa.shared.util.c.a.bi.run(PG:1) 
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167) 
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641) 
+        at java.lang.Thread.run(Thread.java:923) 
+        at com.google.android.apps.gsa.shared.util.c.a.l.run(PG:5) 
+2022-09-18 11:32:18.205 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-18 11:32:18.205 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-18 11:32:19.351 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-18 11:32:19.351 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-18 11:33:18.209 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-18 11:33:18.209 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-18 11:33:19.412 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-18 11:33:19.413 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-18 11:34:18.250 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-18 11:34:18.250 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-18 11:34:19.473 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-18 11:34:19.473 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-18 11:35:18.283 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-18 11:35:18.283 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-18 11:35:19.532 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-18 11:35:19.532 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-18 11:36:18.344 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-18 11:36:18.344 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-18 11:36:19.593 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-18 11:36:19.593 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-18 11:37:18.406 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-18 11:37:18.406 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-18 11:37:19.608 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-18 11:37:19.608 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-18 11:38:18.441 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-18 11:38:18.441 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-18 11:38:19.667 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-18 11:38:19.667 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-18 11:39:18.471 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-18 11:39:18.471 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-18 11:39:19.727 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-18 11:39:19.727 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-18 11:40:04.773 4879-4879/? E/oid.setupwizar: Not starting debugger since process cannot load the jdwp agent.
+2022-09-18 11:40:18.524 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-18 11:40:18.525 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-18 11:40:19.740 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-18 11:40:19.740 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-18 11:40:43.352 30391-4909/? E/ActivityManager: ANR in com.google.android.setupwizard
+    PID: 4879
+    Reason: executing service com.google.android.setupwizard/.deferred.DeferredSetupScheduler
+    Load: 0.0 / 0.0 / 0.0
+    ----- Output from /proc/pressure/memory -----
+    some avg10=0.00 avg60=0.00 avg300=0.00 total=56349393
+    full avg10=0.00 avg60=0.00 avg300=0.00 total=11418508
+    ----- End output from /proc/pressure/memory -----
+    
+    CPU usage from 252976ms to 0ms ago (2022-09-18 08:36:30.220 to 2022-09-18 08:40:43.196):
+      37% 4753/com.ankauniss.myapplication: 3% user + 34% kernel / faults: 23449 minor
+      35% 362/surfaceflinger: 0.9% user + 34% kernel / faults: 1 minor
+      29% 318/android.hardware.graphics.composer@2.3-service: 0.3% user + 29% kernel
+      4.6% 305/android.hardware.bluetooth@1.1-service.sim: 0% user + 4.6% kernel
+      1% 16/ksoftirqd/1: 0% user + 1% kernel
+      1% 4873/kworker/0:0-events: 0% user + 1% kernel
+      0.9% 327/android.hardware.sensors@2.1-service.multihal: 0% user + 0.9% kernel
+      0.7% 21/ksoftirqd/2: 0% user + 0.7% kernel
+      0.7% 30391/system_server: 0.1% user + 0.6% kernel / faults: 500 minor
+      0.7% 10/rcu_preempt: 0% user + 0.7% kernel
+      0.6% 26/ksoftirqd/3: 0% user + 0.6% kernel
+      0.5% 9/ksoftirqd/0: 0% user + 0.5% kernel
+      0.1% 30774/com.android.phone: 0% user + 0.1% kernel / faults: 130 minor
+      0% 4871/kworker/u8:1-phy0: 0% user + 0% kernel
+      0% 30996/com.google.android.gms.persistent: 0% user + 0% kernel / faults: 348 minor
+      0% 31485/com.google.android.gms: 0% user + 0% kernel / faults: 487 minor
+      0% 4727/kworker/1:2-events_power_efficient: 0% user + 0% kernel
+      0% 15/migration/1: 0% user + 0% kernel
+      0% 4343/com.android.vending:instant_app_installer: 0% user + 0% kernel / faults: 21 minor
+      0% 30655/android.hardware.gnss@2.0-service.ranchu: 0% user + 0% kernel
+      0% 11/migration/0: 0% user + 0% kernel
+      0% 1970/adbd: 0% user + 0% kernel
+      0% 31830/com.android.vending: 0% user + 0% kernel / faults: 113 minor
+      0% 20/migration/2: 0% user + 0% kernel
+      0% 575/com.google.android.ims: 0% user + 0% kernel / faults: 306 minor 2 major
+      0% 25/migration/3: 0% user + 0% kernel
+      0% 173/servicemanager: 0% user + 0% kernel
+      0% 30700/com.android.networkstack.process: 0% user + 0% kernel / faults: 87 minor 1 major
+      0% 212/jbd2/dm-5-8: 0% user + 0% kernel
+      0% 503/hostapd_nohidl: 0% user + 0% kernel
+      0% 3965/kworker/2:0-mm_percpu_wq: 0% user + 0% kernel
+      0% 30347/netd: 0% user + 0% kernel / faults: 1 minor
+      0% 143/kworker/0:1H-kblockd: 0% user + 0% kernel
+      0% 171/logd: 0% user + 0% kernel
+      0% 172/lmkd: 0% user + 0% kernel
+      0% 174/hwservicemanager: 0% user + 0% kernel
+      0% 175/qemu-props: 0% user + 0% kernel
+      0% 295/statsd: 0% user + 0% kernel / faults: 3 minor
+      0% 319/android.hardware.health@2.1-service: 0% user + 0% kernel
+      0% 407/traced: 0% user + 0% kernel
+      0% 451/libgoldfish-rild: 0% user + 0% kernel / faults: 24 minor
+      0% 461/android.hardware.biometrics.fingerprint@2.1-service: 0% user + 0% kernel
+      0% 721/wpa_supplicant: 0% user + 0% kernel
+      0% 4649/com.android.systemui: 0% user + 0% kernel / faults: 6 minor
+      0% 4872/kworker/3:2-mm_percpu_wq: 0% user + 0% kernel
+      0% 30343/zygote: 0% user + 0% kernel / faults: 165 minor
+      0% 31210/com.google.process.gservices: 0% user + 0% kernel / faults: 15 minor
+     +0% 4878/kworker/u8:0-phy0: 0% user + 0% kernel
+     +0% 4879/com.google.android.setupwizard: 0% user + 0% kernel
+    19% TOTAL: 0.8% user + 18% kernel + 0% iowait + 0% softirq
+    CPU usage from 12849125ms to 12849125ms ago (1970-01-01 00:00:00.000 to 1970-01-01 00:00:00.000) with 0% awake:
+    0% TOTAL: 0% user + 0% kernel
+2022-09-18 11:41:18.552 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-18 11:41:18.553 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-18 11:41:19.791 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-18 11:41:19.791 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-18 11:42:18.586 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-18 11:42:18.586 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-18 11:42:19.840 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-18 11:42:19.840 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-18 11:43:13.046 31430-31861/? E/A: (REDACTED) Failed to fetch Zwieback cookie
+    com.google.android.libraries.web.weblayer.b.e: 
+        at com.google.android.libraries.web.weblayer.f.a.a.s.b(PG:6)
+        at h.c.b.a.a.h(PG:4)
+        at kotlinx.coroutines.bl.run(PG:14)
+        at com.google.apps.tiktok.coroutines.g.run(PG:1)
+        at com.google.apps.tiktok.concurrent.am.run(PG:6)
+        at com.google.apps.tiktok.tracing.ei.run(PG:2)
+        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+        at com.google.common.util.concurrent.ea.a(PG:1)
+        at com.google.common.util.concurrent.cw.run(PG:4)
+        at com.google.common.util.concurrent.eb.run(PG:1)
+        at android.os.Handler.handleCallback(Handler.java:938)
+        at android.os.Handler.dispatchMessage(Handler.java:99)
+        at android.os.Looper.loop(Looper.java:223)
+        at android.app.ActivityThread.main(ActivityThread.java:7656)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+     Caused by: org.chromium.weblayer.bn: Unsupported WebLayer version, client version 105.0.5121.0 is not supported by implementation version 83.0.4103.106
+        at org.chromium.weblayer.bt.l(PG:2)
+        at org.chromium.weblayer.bt.h(PG:2)
+        at com.google.android.libraries.web.weblayer.wrapper.internal.WebLayerWrapperImpl.i(PG:1)
+        at com.google.android.libraries.web.weblayer.f.a.a.s.b(PG:5)
+        at h.c.b.a.a.h(PG:4) 
+        at kotlinx.coroutines.bl.run(PG:14) 
+        at com.google.apps.tiktok.coroutines.g.run(PG:1) 
+        at com.google.apps.tiktok.concurrent.am.run(PG:6) 
+        at com.google.apps.tiktok.tracing.ei.run(PG:2) 
+        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462) 
+        at com.google.common.util.concurrent.ea.a(PG:1) 
+        at com.google.common.util.concurrent.cw.run(PG:4) 
+        at com.google.common.util.concurrent.eb.run(PG:1) 
+        at android.os.Handler.handleCallback(Handler.java:938) 
+        at android.os.Handler.dispatchMessage(Handler.java:99) 
+        at android.os.Looper.loop(Looper.java:223) 
+        at android.app.ActivityThread.main(ActivityThread.java:7656) 
+        at java.lang.reflect.Method.invoke(Native Method) 
+        at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592) 
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947) 
+2022-09-18 11:43:18.596 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-18 11:43:18.596 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-18 11:43:19.901 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-18 11:43:19.901 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-18 11:44:18.658 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-18 11:44:18.658 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-18 11:44:19.925 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-18 11:44:19.925 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-18 11:45:18.660 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-18 11:45:18.660 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-18 11:45:19.925 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-18 11:45:19.925 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-18 11:46:18.709 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-18 11:46:18.709 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-18 11:46:19.943 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-18 11:46:19.943 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-18 11:47:18.743 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-18 11:47:18.743 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-18 11:47:19.949 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-18 11:47:19.950 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-18 11:48:18.755 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-18 11:48:18.755 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-18 11:48:19.958 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-18 11:48:19.958 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-18 11:49:18.759 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-18 11:49:18.759 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-18 11:49:20.020 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-18 11:49:20.020 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-18 11:50:18.820 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-18 11:50:18.821 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-18 11:50:20.039 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-18 11:50:20.039 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-18 11:51:18.880 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-18 11:51:18.880 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-18 11:51:20.102 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-18 11:51:20.102 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-18 11:52:18.909 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-18 11:52:18.909 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-18 11:52:20.111 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-18 11:52:20.111 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-18 11:53:03.389 30391-30422/? E/JobScheduler.Background: App com.google.android.gms became active but still in NEVER bucket
+2022-09-18 11:53:03.406 30996-4934/? E/WakeLock: GCM_HB_ALARM release without a matched acquire!
+2022-09-18 11:53:05.455 30391-30451/? E/libprocessgroup: AddTidToCgroup failed to write '4952'; fd=60: Invalid argument
+2022-09-18 11:53:05.455 30391-30451/? E/libprocessgroup: Failed to add task into cgroup
+2022-09-18 11:53:13.434 30391-30422/? E/JobScheduler.Background: App com.google.android.gms became active but still in NEVER bucket
+2022-09-18 11:53:18.970 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-18 11:53:18.970 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-18 11:53:20.172 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-18 11:53:20.172 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-18 11:54:19.032 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-18 11:54:19.032 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-18 11:54:20.225 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-18 11:54:20.225 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-18 11:55:19.090 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-18 11:55:19.090 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-18 11:55:20.260 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-18 11:55:20.260 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-18 11:56:19.152 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-18 11:56:19.152 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-18 11:56:20.320 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-18 11:56:20.320 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-18 11:57:19.211 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-18 11:57:19.211 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-18 11:57:20.380 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-18 11:57:20.380 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-18 11:57:32.171 4973-4973/? E/id.apps.tachyo: Not starting debugger since process cannot load the jdwp agent.
+2022-09-18 11:57:32.247 5000-5000/? E/oid.setupwizar: Not starting debugger since process cannot load the jdwp agent.
+2022-09-18 11:57:32.261 4985-4985/? E/id.partnersetu: Not starting debugger since process cannot load the jdwp agent.
+2022-09-18 11:57:33.545 30391-31621/? E/system_server: Invalid class loader spec: =UnsupportedClassLoaderContext=
+2022-09-18 11:57:33.545 30391-31621/? E/PackageDexUsage: Unsupported context?
+2022-09-18 11:57:33.574 30391-31621/? E/system_server: Invalid class loader spec: =UnsupportedClassLoaderContext=
+2022-09-18 11:57:33.662 4973-5080/? E/TY_CpuInfo: [000:627] [5080] Unknown chipset!
+2022-09-18 11:57:33.662 4973-5080/? E/TY_CpuInfo: [000:627] [5080] rry: SMALL
+2022-09-18 11:57:33.662 4973-5080/? E/TY_CpuInfo: [000:627] [5080] rry: SMALL
+        at dyo.a(Unknown Source:145)
+        at rdv.a(PG:1)
+        at dyr.b(PG:4)
+        at jzo.e(PG:13)
+        at jzo.a(PG:9)
+        at jzj.a(Unknown Source:12)
+        at sbf.a(PG:4)
+        at sdb.b(Unknown Source:2)
+        at scf.run(PG:3)
+        at sdd.run(Unknown Source:4)
+2022-09-18 11:57:33.574 30391-31621/? E/PackageDexUsage: Unsupported context?
+2022-09-18 11:58:11.073 30391-5103/? E/ActivityManager: ANR in com.google.android.setupwizard
+    PID: 5000
+    Reason: executing service com.google.android.setupwizard/.predeferred.PreDeferredServiceScheduler
+    Load: 0.0 / 0.0 / 0.0
+    ----- Output from /proc/pressure/memory -----
+    some avg10=0.00 avg60=0.00 avg300=0.00 total=56367884
+    full avg10=0.00 avg60=0.00 avg300=0.00 total=11423827
+    ----- End output from /proc/pressure/memory -----
+    
+    CPU usage from 100442ms to -1ms ago (2022-09-18 08:56:30.435 to 2022-09-18 08:58:10.878):
+      38% 4753/com.ankauniss.myapplication: 3.4% user + 35% kernel / faults: 9205 minor
+      36% 362/surfaceflinger: 1% user + 35% kernel
+      32% 318/android.hardware.graphics.composer@2.3-service: 0.2% user + 32% kernel
+      4.9% 305/android.hardware.bluetooth@1.1-service.sim: 0% user + 4.8% kernel
+      1.7% 30391/system_server: 0.2% user + 1.4% kernel / faults: 1397 minor 2 major
+      1% 327/android.hardware.sensors@2.1-service.multihal: 0% user + 1% kernel
+      0.9% 21/ksoftirqd/2: 0% user + 0.9% kernel
+      0.9% 9/ksoftirqd/0: 0% user + 0.9% kernel
+      0.8% 16/ksoftirqd/1: 0% user + 0.8% kernel
+      0.8% 4798/kworker/0:1: 0% user + 0.8% kernel
+      0.7% 10/rcu_preempt: 0% user + 0.7% kernel
+      0.4% 30996/com.google.android.gms.persistent: 0% user + 0.3% kernel / faults: 1095 minor
+      0.3% 26/ksoftirqd/3: 0% user + 0.3% kernel
+      0.2% 31485/com.google.android.gms: 0% user + 0.1% kernel / faults: 827 minor 5 major
+      0.1% 30774/com.android.phone: 0% user + 0.1% kernel / faults: 73 minor
+      0.1% 31210/com.google.process.gservices: 0% user + 0% kernel / faults: 514 minor
+      0% 1970/adbd: 0% user + 0% kernel / faults: 1 minor
+      0% 4871/kworker/u8:1-phy0: 0% user + 0% kernel
+      0% 30343/zygote: 0% user + 0% kernel / faults: 486 minor
+      0% 4343/com.android.vending:instant_app_installer: 0% user + 0% kernel / faults: 10 minor
+      0% 4727/kworker/1:2-events_power_efficient: 0% user + 0% kernel
+      0% 15/migration/1: 0% user + 0% kernel
+      0% 212/jbd2/dm-5-8: 0% user + 0% kernel
+      0% 30655/android.hardware.gnss@2.0-service.ranchu: 0% user + 0% kernel
+      0% 172/lmkd: 0% user + 0% kernel
+      0% 31830/com.android.vending: 0% user + 0% kernel / faults: 16 minor
+2022-09-18 11:58:19.213 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-18 11:58:19.213 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-18 11:58:20.409 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-18 11:58:20.409 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-18 11:58:30.084 5113-5113/? E/.android.video: Not starting debugger since process cannot load the jdwp agent.
+2022-09-18 11:58:31.468 5113-5161/? E/WM-WorkerWrapper: Didn't find WorkSpec for id 70463921-5e7d-4379-997d-d3eaa16e332d
+2022-09-18 11:59:19.227 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-18 11:59:19.227 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-18 11:59:20.425 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-18 11:59:20.428 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-18 12:00:19.241 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-18 12:00:19.241 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-18 12:00:20.431 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-18 12:00:20.431 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-18 12:01:19.275 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-18 12:01:19.275 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-18 12:01:20.491 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-18 12:01:20.491 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-18 12:02:19.291 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-18 12:02:19.291 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-18 12:02:20.492 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-18 12:02:20.492 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-18 12:03:19.353 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-18 12:03:19.353 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-18 12:03:20.551 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-18 12:03:20.551 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-18 12:04:19.359 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-18 12:04:19.359 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-18 12:04:20.637 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-18 12:04:20.637 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-18 12:05:13.763 30391-31686/? E/FingerprintService: Lockout reset callback binder died
+2022-09-18 12:05:13.765 30391-31686/? E/BiometricService: Enabled callback binder died
+2022-09-18 12:05:13.943 5189-5189/? E/ndroid.systemu: Not starting debugger since process cannot load the jdwp agent.
+2022-09-18 12:05:14.384 5189-5189/? E/ActivityThread: Failed to find provider info for com.google.android.apps.turbo.estimated_time_remaining
+2022-09-18 12:05:14.413 5189-5189/? E/NavigationModeController: updateCurrentInteractionMode: mode=0
+2022-09-18 12:05:14.622 5189-5223/? E/FMQ: grantorIdx must be less than 3
+2022-09-18 12:05:14.623 5189-5223/? E/FMQ: grantorIdx must be less than 3
+2022-09-18 12:05:14.625 453-963/? E/FMQ: grantorIdx must be less than 3
+2022-09-18 12:05:14.625 453-963/? E/FMQ: grantorIdx must be less than 3
+2022-09-18 12:05:14.629 5189-5223/? E/ion: ioctl c0044901 failed with code -1: Inappropriate ioctl for device
+2022-09-18 12:05:14.636 5189-5223/? E/FMQ: grantorIdx must be less than 3
+2022-09-18 12:05:14.637 453-894/? E/FMQ: grantorIdx must be less than 3
+2022-09-18 12:05:14.654 5189-5231/? E/FMQ: grantorIdx must be less than 3
+2022-09-18 12:05:14.655 5189-5231/? E/FMQ: grantorIdx must be less than 3
+2022-09-18 12:05:14.658 453-894/? E/FMQ: grantorIdx must be less than 3
+2022-09-18 12:05:14.659 453-894/? E/FMQ: grantorIdx must be less than 3
+2022-09-18 12:05:14.700 453-5230/? E/FMQ: grantorIdx must be less than 3
+2022-09-18 12:05:14.701 5189-5229/? E/FMQ: grantorIdx must be less than 3
+2022-09-18 12:05:14.702 5189-5231/? E/FMQ: grantorIdx must be less than 3
+2022-09-18 12:05:14.705 453-894/? E/FMQ: grantorIdx must be less than 3
+2022-09-18 12:05:14.755 453-5232/? E/FMQ: grantorIdx must be less than 3
+2022-09-18 12:05:14.756 5189-5229/? E/FMQ: grantorIdx must be less than 3
+2022-09-18 12:05:15.175 5189-5233/? E/vol.VolumeDialogControl: isCaptionsServiceEnabled failed to check for captions component
+    java.lang.IllegalArgumentException: Unknown component: ComponentInfo{com.google.android.as/com.google.android.apps.miphone.aiai.captions.CaptionsService}
+        at android.os.Parcel.createExceptionOrNull(Parcel.java:2377)
+        at android.os.Parcel.createException(Parcel.java:2357)
+        at android.os.Parcel.readException(Parcel.java:2340)
+        at android.os.Parcel.readException(Parcel.java:2282)
+        at android.content.pm.IPackageManager$Stub$Proxy.getComponentEnabledSetting(IPackageManager.java:6804)
+        at android.app.ApplicationPackageManager.getComponentEnabledSetting(ApplicationPackageManager.java:2723)
+        at com.android.systemui.volume.VolumeDialogControllerImpl.onGetCaptionsComponentStateW(VolumeDialogControllerImpl.java:441)
+        at com.android.systemui.volume.VolumeDialogControllerImpl.access$2000(VolumeDialogControllerImpl.java:92)
+        at com.android.systemui.volume.VolumeDialogControllerImpl$W.handleMessage(VolumeDialogControllerImpl.java:825)
+        at android.os.Handler.dispatchMessage(Handler.java:106)
+        at android.os.Looper.loop(Looper.java:223)
+        at android.os.HandlerThread.run(HandlerThread.java:67)
+     Caused by: android.os.RemoteException: Remote stack trace:
+        at com.android.server.pm.PackageManagerService.getComponentEnabledSetting(PackageManagerService.java:21394)
+        at android.content.pm.IPackageManager$Stub.onTransact(IPackageManager.java:3216)
+        at com.android.server.pm.PackageManagerService.onTransact(PackageManagerService.java:4302)
+        at android.os.Binder.execTransactInternal(Binder.java:1159)
+        at android.os.Binder.execTransact(Binder.java:1123)
+2022-09-18 12:05:15.236 5189-5237/? E/FMQ: grantorIdx must be less than 3
+2022-09-18 12:05:15.236 5189-5237/? E/FMQ: grantorIdx must be less than 3
+2022-09-18 12:05:15.238 453-14811/? E/FMQ: grantorIdx must be less than 3
+2022-09-18 12:05:15.238 453-14811/? E/FMQ: grantorIdx must be less than 3
+2022-09-18 12:05:15.252 5189-5237/? E/FMQ: grantorIdx must be less than 3
+2022-09-18 12:05:15.254 453-14811/? E/FMQ: grantorIdx must be less than 3
+2022-09-18 12:05:15.310 453-5238/? E/FMQ: grantorIdx must be less than 3
+2022-09-18 12:05:15.311 5189-5229/? E/FMQ: grantorIdx must be less than 3
+2022-09-18 12:05:19.414 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-18 12:05:19.414 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-18 12:05:20.675 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-18 12:05:20.675 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-18 12:21:32.141 5268-5268/? E/.apps.messagin: Not starting debugger since process cannot load the jdwp agent.
+2022-09-18 12:21:32.211 5286-5286/? E/viders.calenda: Not starting debugger since process cannot load the jdwp agent.
+2022-09-18 12:21:32.702 931-931/? E/studio.deploy: MessagePipeWrapper: Cannot read (EOF)
+2022-09-18 12:21:32.703 938-938/? E/studio.deploy: MessagePipeWrapper: Cannot read (EOF)
+2022-09-18 12:21:32.703 938-938/? E/studio.deploy: MessagePipeWrapper: Unable to read magic number (received= '
+2022-09-18 12:21:32.703 938-938/? E/studio.deploy: Protopipe: Unable to read() from pipe
+2022-09-18 12:21:33.775 5346-5346/? E/oid.apps.photo: Not starting debugger since process cannot load the jdwp agent.
+2022-09-18 12:21:34.611 5384-5384/? E/.apps.wellbein: Not starting debugger since process cannot load the jdwp agent.
+2022-09-18 12:21:37.374 31430-31430/? E/A: onError
+    com.google.android.apps.gsa.shared.speech.a.m: errorCode: 65561, engine: 2
+        at com.google.android.apps.gsa.staticplugins.cy.a.f.a(PG:3)
+        at com.google.android.apps.gsa.s3.o.gR(PG:1)
+        at com.google.cc.g.a.f.e(PG:2)
+        at com.google.android.apps.gsa.speech.k.a.g.d(PG:22)
+        at com.google.android.apps.gsa.speech.k.a.g.jQ(PG:6)
+        at com.google.android.apps.gsa.s3.p.c(PG:14)
+        at com.google.android.apps.gsa.s3.q.run(PG:1)
+        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+        at com.google.android.apps.gsa.shared.util.c.a.e.run(PG:2)
+        at com.google.android.apps.gsa.shared.util.c.a.bi.run(PG:1)
+        at com.google.android.apps.gsa.shared.util.c.a.bi.run(PG:1)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+        at java.lang.Thread.run(Thread.java:923)
+        at com.google.android.apps.gsa.shared.util.c.a.l.run(PG:5)
+     Caused by: com.google.android.apps.gsa.shared.speech.a.o: errorCode: 65586, engine: 2
+        at com.google.android.apps.gsa.s3.o.gR(PG:1) 
+        at com.google.cc.g.a.f.e(PG:2) 
+        at com.google.android.apps.gsa.speech.k.a.g.d(PG:22) 
+        at com.google.android.apps.gsa.speech.k.a.g.jQ(PG:6) 
+        at com.google.android.apps.gsa.s3.p.c(PG:14) 
+        at com.google.android.apps.gsa.s3.q.run(PG:1) 
+        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462) 
+        at java.util.concurrent.FutureTask.run(FutureTask.java:266) 
+        at com.google.android.apps.gsa.shared.util.c.a.e.run(PG:2) 
+        at com.google.android.apps.gsa.shared.util.c.a.bi.run(PG:1) 
+        at com.google.android.apps.gsa.shared.util.c.a.bi.run(PG:1) 
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167) 
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641) 
+        at java.lang.Thread.run(Thread.java:923) 
+        at com.google.android.apps.gsa.shared.util.c.a.l.run(PG:5) 
+     Caused by: com.google.android.apps.gsa.shared.speech.a.k: errorCode: 401, engine: 2
+        at com.google.android.apps.gsa.assistant.shared.n.h.a(PG:5)
+        at com.google.android.apps.gsa.s3.producers.j.hj(PG:2)
+        at com.google.android.apps.gsa.speech.k.a.g.d(PG:16)
+        at com.google.android.apps.gsa.speech.k.a.g.jQ(PG:6) 
+        at com.google.android.apps.gsa.s3.p.c(PG:14) 
+        at com.google.android.apps.gsa.s3.q.run(PG:1) 
+        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462) 
+        at java.util.concurrent.FutureTask.run(FutureTask.java:266) 
+        at com.google.android.apps.gsa.shared.util.c.a.e.run(PG:2) 
+        at com.google.android.apps.gsa.shared.util.c.a.bi.run(PG:1) 
+        at com.google.android.apps.gsa.shared.util.c.a.bi.run(PG:1) 
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167) 
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641) 
+        at java.lang.Thread.run(Thread.java:923) 
+        at com.google.android.apps.gsa.shared.util.c.a.l.run(PG:5) 
+2022-09-18 12:21:37.876 30391-30470/? E/system_server: Invalid class loader spec: =UnsupportedClassLoaderContext=
+2022-09-18 12:21:37.877 30391-30470/? E/PackageDexUsage: Unsupported context?
+2022-09-18 12:21:37.896 31430-5441/? E/BgTaskExecutorImpl: (REDACTED) %s
+    com.google.android.apps.gsa.shared.speech.a.o: errorCode: 65586, engine: 2
+        at com.google.android.apps.gsa.s3.o.gR(PG:1)
+        at com.google.cc.g.a.f.e(PG:2)
+        at com.google.android.apps.gsa.speech.k.a.g.d(PG:22)
+        at com.google.android.apps.gsa.speech.k.a.g.jQ(PG:6)
+        at com.google.android.apps.gsa.s3.p.c(PG:14)
+        at com.google.android.apps.gsa.s3.q.run(PG:1)
+        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+        at com.google.android.apps.gsa.shared.util.c.a.e.run(PG:2)
+        at com.google.android.apps.gsa.shared.util.c.a.bi.run(PG:1)
+        at com.google.android.apps.gsa.shared.util.c.a.bi.run(PG:1)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+        at java.lang.Thread.run(Thread.java:923)
+        at com.google.android.apps.gsa.shared.util.c.a.l.run(PG:5)
+     Caused by: com.google.android.apps.gsa.shared.speech.a.k: errorCode: 401, engine: 2
+        at com.google.android.apps.gsa.assistant.shared.n.h.a(PG:5)
+        at com.google.android.apps.gsa.s3.producers.j.hj(PG:2)
+        at com.google.android.apps.gsa.speech.k.a.g.d(PG:16)
+        at com.google.android.apps.gsa.speech.k.a.g.jQ(PG:6) 
+        at com.google.android.apps.gsa.s3.p.c(PG:14) 
+        at com.google.android.apps.gsa.s3.q.run(PG:1) 
+        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462) 
+        at java.util.concurrent.FutureTask.run(FutureTask.java:266) 
+        at com.google.android.apps.gsa.shared.util.c.a.e.run(PG:2) 
+        at com.google.android.apps.gsa.shared.util.c.a.bi.run(PG:1) 
+        at com.google.android.apps.gsa.shared.util.c.a.bi.run(PG:1) 
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167) 
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641) 
+        at java.lang.Thread.run(Thread.java:923) 
+        at com.google.android.apps.gsa.shared.util.c.a.l.run(PG:5) 
+2022-09-18 12:21:38.012 5448-5448/? E/s.youtube.musi: Not starting debugger since process cannot load the jdwp agent.
+2022-09-18 12:21:38.896 5497-5497/? E/id.gms.unstabl: Not starting debugger since process cannot load the jdwp agent.
+2022-09-18 12:21:39.061 30391-31275/? E/system_server: Invalid class loader spec: =UnsupportedClassLoaderContext=
+2022-09-18 12:21:39.061 30391-31275/? E/PackageDexUsage: Unsupported context?
+2022-09-18 12:21:39.702 5448-5481/? E/GEL_DELAYED_EVENT_DEBUG: Failed delayed event dispatch, no dispatchers.
+2022-09-18 12:21:39.766 5448-5562/? E/AwarenessClientProvider: Account associated with identity was null
+2022-09-18 12:21:39.876 5448-5562/? E/AwarenessRouterSyncMgr: Exception while syncing fences
+    java.util.concurrent.ExecutionException: java.lang.IllegalStateException: Account associated with identity was null
+        at zsp.a(PG:135)
+        at zsp.get(PG:82)
+        at zwj.a(PG:1)
+        at zuv.a(PG:4)
+        at fyf.run(Unknown Source:1)
+        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462)
+        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+        at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+        at pqt.run(PG:13)
+        at java.lang.Thread.run(Thread.java:923)
+     Caused by: java.lang.IllegalStateException: Account associated with identity was null
+        at fxj.a(Unknown Source:3)
+        at zsr.a(PG:3)
+        at zst.run(PG:23)
+        at zvn.run(PG:2)
+        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:462) 
+        at java.util.concurrent.FutureTask.run(FutureTask.java:266) 
+        at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301) 
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167) 
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641) 
+        at pqt.run(PG:13) 
+        at java.lang.Thread.run(Thread.java:923) 
+2022-09-18 12:21:40.815 5588-5588/? E/ndroid.calenda: Not starting debugger since process cannot load the jdwp agent.
+2022-09-18 12:21:41.802 5658-5658/? E/droid.deskcloc: Not starting debugger since process cannot load the jdwp agent.
+2022-09-18 12:21:41.887 30391-30405/? E/system_server: Invalid class loader spec: =UnsupportedClassLoaderContext=
+2022-09-18 12:21:41.888 30391-30405/? E/PackageDexUsage: Unsupported context?
+2022-09-18 12:21:42.620 5448-5488/? E/GoogleTagManager: Invalid macro: _gtm.loadEventEnabled
+2022-09-18 12:21:42.751 5723-5723/? E/android.youtub: Not starting debugger since process cannot load the jdwp agent.
+2022-09-18 12:21:43.162 5723-5723/? E/YouTube: flushBinderConnectionCallbacks is unverified on SDK 30
+2022-09-18 12:21:43.635 5448-5716/? E/GoogleTagManager: Invalid macro: _gtm.loadEventEnabled
+2022-09-18 12:21:44.096 30391-30405/? E/system_server: Invalid class loader spec: =UnsupportedClassLoaderContext=
+2022-09-18 12:21:44.096 30391-30405/? E/PackageDexUsage: Unsupported context?
+2022-09-18 12:21:44.208 5448-5482/? E/GoogleTagManager: Unsupported Value Escaping: 3
+2022-09-18 12:21:44.343 5448-5482/? E/GoogleTagManager: Unsupported Value Escaping: 3
+2022-09-18 12:21:44.350 5448-5482/? E/GoogleTagManager: Unsupported Value Escaping: 3
+2022-09-18 12:21:44.439 5723-5757/? E/GEL_DELAYED_EVENT_DEBUG: Failed delayed event dispatch, no dispatchers.
+2022-09-18 12:21:45.848 30391-30405/? E/system_server: Invalid class loader spec: =UnsupportedClassLoaderContext=
+2022-09-18 12:21:45.848 30391-30405/? E/PackageDexUsage: Unsupported context?
+2022-09-18 12:22:11.523 5896-5896/? E/studio.deploy: Could not get package user id: run-as: unknown package: com.ankauniss.uyumyoklamaapp
+2022-09-18 12:22:11.558 5896-5896/? E/studio.deploy: Could not find apks for this package: com.ankauniss.uyumyoklamaapp
+2022-09-18 12:22:11.558 5896-5896/? E/studio.deploy: Error: 
+2022-09-18 12:22:11.576 5896-5896/? E/studio.deploy: Could not get package user id: run-as: unknown package: com.ankauniss.uyumyoklamaapp
+2022-09-18 12:22:11.596 5896-5896/? E/studio.deploy: Could not find apks for this package: com.ankauniss.uyumyoklamaapp
+2022-09-18 12:22:11.596 5896-5896/? E/studio.deploy: Error: 
+2022-09-18 12:22:13.208 30391-30422/? E/JobScheduler.Background: App com.google.android.gms became active but still in NEVER bucket
+2022-09-18 12:22:13.609 416-416/? E/installd: Couldn't opendir /data/app/vmdl706355959.tmp: No such file or directory
+2022-09-18 12:22:13.609 416-416/? E/installd: Failed to delete /data/app/vmdl706355959.tmp: No such file or directory
+2022-09-18 12:22:13.682 5917-5917/? E/ssioncontrolle: Not starting debugger since process cannot load the jdwp agent.
+2022-09-18 12:22:14.110 5962-5962/? E/ackageinstalle: Not starting debugger since process cannot load the jdwp agent.
+2022-09-18 12:22:14.350 31485-31717/? E/GmsClient: unable to connect to service: com.google.android.gms.auth.key.retrieval.service.START on com.google.android.gms
+2022-09-18 12:22:14.574 5917-6014/? E/BackupHelper: Could not parse delayed permissions
+    java.io.FileNotFoundException: /data/user_de/0/com.google.android.permissioncontroller/files/delayed_restore_permissions.xml: open failed: ENOENT (No such file or directory)
+        at libcore.io.IoBridge.open(IoBridge.java:492)
+        at java.io.FileInputStream.<init>(FileInputStream.java:160)
+        at android.app.ContextImpl.openFileInput(ContextImpl.java:636)
+        at com.android.permissioncontroller.permission.service.BackupHelper.restoreDelayedState(BackupHelper.java:338)
+        at com.android.permissioncontroller.permission.service.PermissionControllerServiceImpl.onRestoreDelayedRuntimePermissionsBackup(PermissionControllerServiceImpl.java:413)
+        at com.android.permissioncontroller.permission.service.PermissionControllerServiceImpl.lambda$onApplyStagedRuntimePermissionBackup$4(PermissionControllerServiceImpl.java:407)
+        at com.android.permissioncontroller.permission.service.PermissionControllerServiceImpl.lambda$onApplyStagedRuntimePermissionBackup$4$PermissionControllerServiceImpl(Unknown Source:0)
+        at com.android.permissioncontroller.permission.service.-$$Lambda$PermissionControllerServiceImpl$mE7NqZpMEJTKa_y63m6czFzewlg.run(Unknown Source:8)
+        at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:305)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+        at java.lang.Thread.run(Thread.java:923)
+     Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+        at libcore.io.Linux.open(Native Method)
+        at libcore.io.ForwardingOs.open(ForwardingOs.java:166)
+        at libcore.io.BlockGuardOs.open(BlockGuardOs.java:254)
+        at libcore.io.ForwardingOs.open(ForwardingOs.java:166)
+        at android.app.ActivityThread$AndroidOs.open(ActivityThread.java:7542)
+        at libcore.io.IoBridge.open(IoBridge.java:478)
+        at java.io.FileInputStream.<init>(FileInputStream.java:160) 
+        at android.app.ContextImpl.openFileInput(ContextImpl.java:636) 
+        at com.android.permissioncontroller.permission.service.BackupHelper.restoreDelayedState(BackupHelper.java:338) 
+        at com.android.permissioncontroller.permission.service.PermissionControllerServiceImpl.onRestoreDelayedRuntimePermissionsBackup(PermissionControllerServiceImpl.java:413) 
+        at com.android.permissioncontroller.permission.service.PermissionControllerServiceImpl.lambda$onApplyStagedRuntimePermissionBackup$4(PermissionControllerServiceImpl.java:407) 
+        at com.android.permissioncontroller.permission.service.PermissionControllerServiceImpl.lambda$onApplyStagedRuntimePermissionBackup$4$PermissionControllerServiceImpl(Unknown Source:0) 
+        at com.android.permissioncontroller.permission.service.-$$Lambda$PermissionControllerServiceImpl$mE7NqZpMEJTKa_y63m6czFzewlg.run(Unknown Source:8) 
+        at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:305) 
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167) 
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641) 
+        at java.lang.Thread.run(Thread.java:923) 
+2022-09-18 12:22:20.840 31830-32014/? E/FileObserver: Unhandled exception in FileObserver aemc@525866d
+    java.lang.NullPointerException
+        at aemc.onEvent(PG:3)
+        at android.os.FileObserver$ObserverThread.onEvent(FileObserver.java:163)
+        at android.os.FileObserver$ObserverThread.observe(Native Method)
+        at android.os.FileObserver$ObserverThread.run(FileObserver.java:113)
+2022-09-18 12:22:20.848 31830-32005/? E/Finsky: [198] nba.a(16): ItemStore: getItems RPC failed.
+2022-09-18 12:22:23.928 418-630/? E/IPCThreadState: binder thread pool (1 threads) starved for 115 ms
+2022-09-18 12:22:25.178 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-18 12:22:25.178 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-18 12:22:26.436 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-18 12:22:26.437 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-18 12:22:29.166 31430-31808/? E/A: (REDACTED) Trace %s timed out after %d ms. Complete trace: %s
+    com.google.apps.tiktok.tracing.fc: 
+        at tk_trace.Get ComplianceLocationConsentDataStore(Started After:13)
+        at tk_trace.SubscriptionManagerApplicationStartupListener(Started After)
+        at tk_trace.Startup Listeners(Started After:0)
+        at tk_trace.Application.onCreate(Started After:0)
+        at tk_trace.Application creation(Native Method)
+        at tk_trace.Creating PodcastBrowserService(Started After:3)
+2022-09-18 12:22:30.238 30391-30422/? E/JobScheduler.Background: App com.google.android.gms became active but still in NEVER bucket
+2022-09-26 10:18:46.815 30391-30422/? E/JobScheduler.Background: App com.google.android.gms became active but still in NEVER bucket
+2022-09-26 10:18:50.644 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-26 10:18:50.644 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-26 10:18:51.037 30391-30422/? E/JobScheduler.Background: App com.google.android.gms became active but still in NEVER bucket
+2022-09-26 10:18:51.951 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-26 10:18:51.951 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-26 10:18:56.783 30391-30422/? E/JobScheduler.Background: App com.google.android.gms became active but still in NEVER bucket
+2022-09-26 10:19:01.149 30391-30422/? E/JobScheduler.Background: App com.google.android.gms became active but still in NEVER bucket
+2022-09-26 10:19:03.265 30391-30451/? E/libprocessgroup: AddTidToCgroup failed to write '6239'; fd=60: Invalid argument
+2022-09-26 10:19:03.265 30391-30451/? E/libprocessgroup: Failed to add task into cgroup
+2022-09-26 10:19:50.875 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-26 10:19:50.875 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-26 10:19:52.025 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-26 10:19:52.025 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-26 10:20:10.419 6245-6245/? A/crash_dump32: crash_dump.cpp:474] failed to attach to thread 176: Permission denied
+2022-09-26 10:20:10.421 176-176/? A/libc: crash_dump helper failed to exec
+2022-09-26 10:20:11.878 30391-6242/? E/ActivityManager: ANR in com.android.systemui
+    PID: 5189
+    Reason: executing service com.android.systemui/.dump.SystemUIAuxiliaryDumpService
+    Load: 1.14 / 1.69 / 1.31
+    ----- Output from /proc/pressure/memory -----
+    some avg10=0.00 avg60=0.16 avg300=0.25 total=57810852
+    full avg10=0.00 avg60=0.03 avg300=0.04 total=11783944
+    ----- End output from /proc/pressure/memory -----
+    
+    CPU usage from 126885ms to 0ms ago (2022-09-18 09:22:36.282 to 2022-09-26 07:20:08.627):
+      6.8% 30391/system_server: 1.2% user + 5.5% kernel / faults: 1628 minor 1 major
+      5.7% 6007/com.ankauniss.uyumyoklamaapp: 3.2% user + 2.4% kernel / faults: 75 minor
+      5.6% 305/android.hardware.bluetooth@1.1-service.sim: 0% user + 5.5% kernel
+      2.2% 5448/com.google.android.apps.youtube.music: 0.6% user + 1.5% kernel / faults: 49 minor
+      1.9% 1970/adbd: 0% user + 1.9% kernel / faults: 6862 minor 20 major
+      1.9% 327/android.hardware.sensors@2.1-service.multihal: 0% user + 1.9% kernel
+      1.4% 30347/netd: 0% user + 1.3% kernel / faults: 3 minor
+      1.2% 5268/com.google.android.apps.messaging: 0.3% user + 0.8% kernel / faults: 1335 minor
+      1.1% 575/com.google.android.ims: 0.2% user + 0.8% kernel / faults: 4 minor
+      1.1% 30996/com.google.android.gms.persistent: 0.2% user + 0.8% kernel / faults: 1521 minor
+      0.7% 721/wpa_supplicant: 0% user + 0.6% kernel
+      1.1% 318/android.hardware.graphics.composer@2.3-service: 0% user + 1.1% kernel
+      1% 31485/com.google.android.gms: 0.3% user + 0.6% kernel / faults: 1801 minor
+      0.9% 30774/com.android.phone: 0.1% user + 0.8% kernel / faults: 410 minor 4 major
+      0.9% 31830/com.android.vending: 0.2% user + 0.6% kernel / faults: 40 minor 1 major
+      0.7% 5384/com.google.android.apps.wellbeing: 0.1% user + 0.5% kernel / faults: 2162 minor
+      0.7% 5723/com.google.android.youtube: 0.1% user + 0.5% kernel / faults: 40 minor
+      0.4% 442/storaged: 0% user + 0.3% kernel / faults: 132946 minor 1 major
+      0.6% 16/ksoftirqd/1: 0% user + 0.6% kernel
+      0.4% 21/ksoftirqd/2: 0% user + 0.4% kernel
+      0.4% 212/jbd2/dm-5-8: 0% user + 0.4% kernel
+      0.4% 9/ksoftirqd/0: 0% user + 0.4% kernel
+      0.3% 30700/com.android.networkstack.process: 0% user + 0.3% kernel / faults: 104 minor
+      0.3% 5112/kworker/1:0-events_power_efficient: 0% user + 0.3% kernel
+      0.3% 503/hostapd_nohidl: 0% user + 0.3% kernel
+      0.3% 5318/kworker/u8:4-phy0: 0% user + 0.3% kernel
+      0.3% 145/ueventd: 0.1% user + 0.1% kernel
+      0.3% 319/android.hardware.health@2.1-service: 0% user + 0.2% kernel
+      0% 216/android.system.suspend@1.0-service: 0% user + 0% kernel / faults: 2 minor 2 major
+      0.2% 468/netmgr: 0% user + 0.2% kernel
+      0.2% 10/rcu_preempt: 0% user + 0.2% kernel
+      0.2% 26/ksoftirqd/3: 0% user + 0.2% kernel
+      0.2% 173/servicemanager: 0% user + 0.2% kernel
+      0.2% 362/surfaceflinger: 0% user + 0.2% kernel
+      0.2% 451/libgoldfish-rild: 0% user + 0.2% kernel / faults: 12 minor
+      0.1% 171/logd: 0% user + 0.1% kernel / faults: 1 minor
+      0% 30349/wificond: 0% user + 0% kernel
+      0.1% 30655/android.hardware.gnss@2.0-service.ranchu: 0% user + 0.1% kernel
+      0.1% 174/hwservicemanager: 0% user + 0.1% kernel
+      0.1% 31145/android.process.acore: 0% user + 0% kernel / faults: 150 minor 5 major
+      0.1% 5178/kworker/0:1-mm_percpu_wq: 0% user + 0.1% kernel
+      0% 5934/kworker/u8:5-phy0: 0% user + 0% kernel
+      0% 378/logcat: 0% user + 0% kernel
+      0% 30856/com.google.android.apps.nexuslauncher: 0% user + 0% kernel / faults: 961 minor 26 major
+      0% 295/statsd: 0% user + 0% kernel / faults: 2 minor
+      0% 461/android.hardware.biometrics.fingerprint@2.1-service: 0% user + 0% kernel
+      0% 489/dhcpclient: 0% user + 0% kernel
+      0% 31116/com.google.android.inputmethod.latin: 0% user + 0% kernel / faults: 6 minor 2 major
+      0% 3965/kworker/2:0-mm_percpu_wq: 0% user + 0% kernel
+      0% 5263/kworker/u8:1-kverityd: 0% user + 0% kernel
+      0% 5286/com.android.providers.calendar: 0% user + 0% kernel / faults: 283 minor
+      0% 5588/com.google.android.calendar: 0% user + 0% kernel / faults: 165 minor
+      0% 172/lmkd: 0% user + 0% kernel
+2022-09-26 10:20:11.878 30391-6242/? E/ActivityManager:   0% 5658/com.google.android.deskclock: 0% user + 0% kernel / faults: 33 minor
+      0% 400/traced_probes: 0% user + 0% kernel
+      0% 407/traced: 0% user + 0% kernel
+      0% 5189/com.android.systemui: 0% user + 0% kernel / faults: 4 minor
+      0% 30406/audioserver: 0% user + 0% kernel
+      0% 11/migration/0: 0% user + 0% kernel
+      0% 15/migration/1: 0% user + 0% kernel
+      0% 25/migration/3: 0% user + 0% kernel
+      0% 131/kworker/1:1H-kblockd: 0% user + 0% kernel
+      0% 148/kworker/2:1H-kblockd: 0% user + 0% kernel
+      0% 4973/com.google.android.apps.tachyon: 0% user + 0% kernel / faults: 8 minor
+      0% 5113/com.google.android.videos: 0% user + 0% kernel / faults: 17 minor
+      0% 5346/com.google.android.apps.photos: 0% user + 0% kernel / faults: 2 minor
+      0% 30547/com.android.bluetooth: 0% user + 0% kernel / faults: 2 minor
+      0% 31430/com.google.android.googlequicksearchbox:search: 0% user + 0% kernel / faults: 6 minor
+     +0% 6219/sh: 0% user + 0% kernel
+     +0% 6221/transport: 0% user + 0% kernel
+    4% TOTAL: 1.2% user + 2.4% kernel + 0.3% iowait + 0% softirq
+    CPU usage from 28ms to 451ms later (2022-09-26 07:20:08.655 to 2022-09-26 07:20:09.078):
+      30% 30391/system_server: 0% user + 30% kernel / faults: 174 minor
+        33% 6242/AnrConsumer: 3.3% user + 30% kernel
+      5.1% 305/android.hardware.bluetooth@1.1-service.sim: 0% user + 5.1% kernel
+        2.5% 1224/bluetooth@1.1-s: 0% user + 2.5% kernel
+      2.3% 10/rcu_preempt: 0% user + 2.3% kernel
+      2.5% 318/android.hardware.graphics.composer@2.3-service: 0% user + 2.5% kernel
+    13% TOTAL: 1.2% user + 12% kernel
+2022-09-26 10:20:51.016 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-26 10:20:51.016 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-26 10:20:52.086 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-26 10:20:52.086 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-26 10:21:35.964 6300-6300/? E/oid.setupwizar: Not starting debugger since process cannot load the jdwp agent.
+2022-09-26 10:21:36.036 6320-6320/? E/.apps.wallpape: Not starting debugger since process cannot load the jdwp agent.
+2022-09-26 10:21:36.172 5268-5410/? E/Bugle: Failed to check if revocation is enabled
+2022-09-26 10:21:36.172 5268-5410/? E/Bugle: aeei: Jibe SDK Service not available. Is the Jibe SDK service running? Did you call connect() and wait for the notification before calling an API function?
+        at aeec.a(PG:15)
+        at com.google.android.rcs.client.profile.RcsProfileService.getRcsConfig(PG:15)
+        at kfx.o(PG:545)
+        at kfx.t(PG:139)
+        at fbq.a(Unknown Source:8)
+        at afoy.a(PG:3)
+        at ailz.a(PG:3)
+        at aima.run(PG:23)
+        at aipd.run(PG:2)
+        at aeua.run(PG:2)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+        at aesr.run(Unknown Source:4)
+        at java.lang.Thread.run(Thread.java:923)
+2022-09-26 10:21:51.076 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-26 10:21:51.076 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-26 10:21:52.148 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-26 10:21:52.149 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-26 10:22:05.443 174-174/? E/SELinux: avc:  denied  { find } for interface=android.hardware.memtrack::IMemtrack sid=u:r:gmscore_app:s0:c512,c768 pid=5497 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:hal_memtrack_hwservice:s0 tclass=hwservice_manager permissive=0
+2022-09-26 10:22:05.443 5497-6359/? E/memtrack: Couldn't load memtrack module
+2022-09-26 10:22:14.466 30391-6360/? E/ActivityManager: ANR in com.google.android.setupwizard
+    PID: 6300
+    Reason: executing service com.google.android.setupwizard/.deferred.DeferredSetupScheduler
+    Load: 0.0 / 0.0 / 0.0
+    ----- Output from /proc/pressure/memory -----
+    some avg10=0.00 avg60=0.01 avg300=0.15 total=57819593
+    full avg10=0.00 avg60=0.00 avg300=0.01 total=11789269
+    ----- End output from /proc/pressure/memory -----
+    
+    CPU usage from 125749ms to 0ms ago (2022-09-26 07:20:08.627 to 2022-09-26 07:22:14.376):
+      4.1% 305/android.hardware.bluetooth@1.1-service.sim: 0% user + 4% kernel
+      2.2% 30391/system_server: 0.4% user + 1.8% kernel / faults: 13422 minor 9 major
+      1.1% 318/android.hardware.graphics.composer@2.3-service: 0% user + 1.1% kernel
+      0.9% 327/android.hardware.sensors@2.1-service.multihal: 0% user + 0.8% kernel
+      0.3% 9/ksoftirqd/0: 0% user + 0.3% kernel
+      0.3% 6221/transport: 0% user + 0.3% kernel
+      0.2% 26/ksoftirqd/3: 0% user + 0.2% kernel
+      0.2% 16/ksoftirqd/1: 0% user + 0.2% kernel
+      0.2% 5189/com.android.systemui: 0.1% user + 0.1% kernel / faults: 6237 minor
+      0.2% 30774/com.android.phone: 0% user + 0.1% kernel / faults: 1734 minor
+      0.1% 10/rcu_preempt: 0% user + 0.1% kernel
+      0.1% 5268/com.google.android.apps.messaging: 0% user + 0.1% kernel / faults: 792 minor 1 major
+      0.1% 362/surfaceflinger: 0% user + 0.1% kernel / faults: 621 minor
+      0.1% 30996/com.google.android.gms.persistent: 0% user + 0.1% kernel / faults: 762 minor
+      0% 453/media.swcodec: 0% user + 0% kernel / faults: 6103 minor
+      0.1% 21/ksoftirqd/2: 0% user + 0.1% kernel
+      0% 5263/kworker/u8:1-kverityd: 0% user + 0% kernel
+      0% 30700/com.android.networkstack.process: 0% user + 0% kernel / faults: 1415 minor
+      0% 6007/com.ankauniss.uyumyoklamaapp: 0% user + 0% kernel
+      0% 446/media.codec: 0% user + 0% kernel / faults: 2877 minor
+      0% 5497/com.google.android.gms.unstable: 0% user + 0% kernel / faults: 321 minor
+      0% 5723/com.google.android.youtube: 0% user + 0% kernel / faults: 18 minor
+      0% 5448/com.google.android.apps.youtube.music: 0% user + 0% kernel / faults: 21 minor
+      0% 1/init: 0% user + 0% kernel
+      0% 435/media.extractor: 0% user + 0% kernel / faults: 1495 minor
+      0% 30547/com.android.bluetooth: 0% user + 0% kernel / faults: 140 minor
+      0% 30748/com.android.se: 0% user + 0% kernel / faults: 894 minor
+      0% 31210/com.google.process.gservices: 0% user + 0% kernel / faults: 260 minor
+      0% 31344/com.android.ims.rcsservice: 0% user + 0% kernel / faults: 903 minor
+      0% 31373/com.android.emulator.multidisplay: 0% user + 0% kernel / faults: 875 minor
+      0% 31485/com.google.android.gms: 0% user + 0% kernel / faults: 149 minor
+      0% 31830/com.android.vending: 0% user + 0% kernel / faults: 170 minor
+      0% 171/logd: 0% user + 0% kernel / faults: 5 minor
+      0% 212/jbd2/dm-5-8: 0% user + 0% kernel
+      0% 5318/kworker/u8:4-phy0: 0% user + 0% kernel
+      0% 30655/android.hardware.gnss@2.0-service.ranchu: 0% user + 0% kernel
+      0% 378/logcat: 0% user + 0% kernel
+      0% 1970/adbd: 0% user + 0% kernel
+      0% 30347/netd: 0% user + 0% kernel / faults: 142 minor
+      0% 145/ueventd: 0% user + 0% kernel
+      0% 172/lmkd: 0% user + 0% kernel
+      0% 173/servicemanager: 0% user + 0% kernel
+      0% 295/statsd: 0% user + 0% kernel / faults: 119 minor
+      0% 5112/kworker/1:0-events_power_efficient: 0% user + 0% kernel
+      0% 30343/zygote: 0% user + 0% kernel / faults: 344 minor
+      0% 30406/audioserver: 0% user + 0% kernel / faults: 43 minor
+      0% 11/migration/0: 0% user + 0% kernel
+      0% 20/migration/2: 0% user + 0% kernel
+      0% 131/kworker/1:1H-kblockd: 0% user + 0% kernel
+      0% 174/hwservicemanager: 0% user + 0% kernel
+      0% 290/tombstoned: 0% user + 0% kernel
+      0% 407/traced: 0% user + 0% kernel
+      0% 411/drmserver: 0% user + 0% kernel / faults: 42 minor
+      0% 438/media.metrics: 0% user + 0% kernel / faults: 171 minor 2 major
+      0% 461/android.hardware.biometrics.fingerprint@2.1-service: 0% user + 0% kernel
+      0% 1986/mdnsd: 0% user + 0% kernel
+      0% 3965/kworker/2:0-mm_percpu_wq: 0% user + 0% kernel
+      0% 5178/kworker/0:1-mm_percpu_wq: 0% user + 0% kernel
+2022-09-26 10:22:14.466 30391-6360/? E/ActivityManager:   0% 5209/kworker/3:2-mm_percpu_wq: 0% user + 0% kernel
+      0% 5588/com.google.android.calendar: 0% user + 0% kernel / faults: 26 minor
+      0% 30345/cameraserver: 0% user + 0% kernel / faults: 42 minor
+      0% 30346/mediaserver: 0% user + 0% kernel / faults: 74 minor
+      0% 30361/iptables-restore: 0% user + 0% kernel / faults: 3 minor 4 major
+      0% 30362/ip6tables-restore: 0% user + 0% kernel / faults: 8 minor
+      0% 30836/com.google.android.ext.services: 0% user + 0% kernel / faults: 23 minor 1 major
+     +0% 6244/crash_dump32: 0% user + 0% kernel
+     +0% 6300/com.google.android.setupwizard: 0% user + 0% kernel
+     +0% 6320/com.google.android.apps.wallpaper: 0% user + 0% kernel
+    1.2% TOTAL: 0.3% user + 0.9% kernel + 0% iowait
+    CPU usage from 14649089ms to 14649089ms ago (1970-01-01 00:00:00.000 to 1970-01-01 00:00:00.000) with 0% awake:
+    0% TOTAL: 0% user + 0% kernel
+2022-09-26 10:22:51.137 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-26 10:22:51.137 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-26 10:22:52.211 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-26 10:22:52.211 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-26 10:23:41.797 30391-6375/? E/NtpTimeHelper: requestTime failed
+2022-09-26 10:23:51.146 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-26 10:23:51.146 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-26 10:23:52.272 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-26 10:23:52.272 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-26 10:24:51.147 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-26 10:24:51.147 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-26 10:24:52.333 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-26 10:24:52.333 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-26 10:25:51.197 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-26 10:25:51.197 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-26 10:25:52.341 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-26 10:25:52.341 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-26 10:26:51.208 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-26 10:26:51.208 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-26 10:26:52.402 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-26 10:26:52.402 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-26 10:27:51.269 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-26 10:27:51.269 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-26 10:27:52.407 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-26 10:27:52.407 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-26 10:28:51.281 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-26 10:28:51.281 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-26 10:28:52.417 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-26 10:28:52.417 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-26 10:29:51.342 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-26 10:29:51.342 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-26 10:29:52.417 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-26 10:29:52.417 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-26 10:30:51.347 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-26 10:30:51.347 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-26 10:30:52.478 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-26 10:30:52.479 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-26 10:31:51.393 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-26 10:31:51.393 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-26 10:31:52.502 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-26 10:31:52.502 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-26 10:32:51.449 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-26 10:32:51.449 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-26 10:32:52.557 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-26 10:32:52.557 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-26 10:32:55.306 30391-30422/? E/JobScheduler.Background: App com.google.android.gms became active but still in NEVER bucket
+2022-09-26 10:32:55.307 30996-4942/? E/WakeLock: GCM_HB_ALARM release without a matched acquire!
+2022-09-26 10:33:05.351 30391-30422/? E/JobScheduler.Background: App com.google.android.gms became active but still in NEVER bucket
+2022-09-26 10:33:51.518 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-26 10:33:51.518 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-26 10:33:52.564 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-26 10:33:52.564 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-26 10:33:55.317 30391-30422/? E/JobScheduler.Background: App com.google.android.gms became active but still in NEVER bucket
+2022-09-26 10:33:55.334 30996-6419/? E/WakeLock: GCM_HB_ALARM release without a matched acquire!
+2022-09-26 10:34:05.329 30391-30422/? E/JobScheduler.Background: App com.google.android.gms became active but still in NEVER bucket
+2022-09-26 10:34:51.581 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-26 10:34:51.581 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-26 10:34:52.620 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-26 10:34:52.620 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-26 10:35:51.641 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-26 10:35:51.641 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-26 10:35:52.642 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-26 10:35:52.642 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+2022-09-26 10:36:51.656 468-468/? E/netmgr: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:network' service: Invalid argument
+2022-09-26 10:36:51.656 468-468/? E/netmgr: Failed to open QEMU pipe 'qemud:network': Invalid argument
+2022-09-26 10:36:52.703 474-474/? E/wifi_forwarder: qemu_pipe_open_ns:62: Could not connect to the 'pipe:qemud:wififorward' service: Invalid argument
+2022-09-26 10:36:52.703 474-474/? E/wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
